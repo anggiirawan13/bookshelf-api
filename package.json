@@ -1,0 +1,39 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "Bookshelf API Dicoding-IDCamp Backend Developer",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anggiirawan13/bookshelf-api.git"
+  },
+  "keywords": [
+    "Bookshelf",
+    "API",
+    "Dicoding-IDCampt",
+    "Backend",
+    "Developer"
+  ],
+  "author": "Anggi Irawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anggiirawan13/bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/anggiirawan13/bookshelf-api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "globals": "^15.9.0"
+  }
+}
